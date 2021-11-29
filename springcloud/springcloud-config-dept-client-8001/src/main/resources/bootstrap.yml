@@ -1,0 +1,8 @@
+spring: 
+  cloud: 
+    config: 
+      name: springcloud-config-dept-client #需要从github上读取的资源名称
+      #profile 配置什么就取什么, dev or test
+      profile: test
+      label: master 
+      uri: http://config-3344.com:3344 #springcloud上获取服务地址
